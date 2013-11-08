@@ -7,7 +7,7 @@ body.yui-skin-sam,
 .yui-skin-sam p,
 .yui-skin-sam textarea,
 .yui-skin-sam select {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 13px;
   color: #333;
 }
@@ -575,7 +575,7 @@ input[type="button"].btn-block {
 
 /****************     end bootstrap styles        ********************/
 pre, code, .CodeMirror {
-  font-family: Consolas, Monaco, monospace;
+  font-family: Ubuntu Mono, Consolas, Monaco, monospace;
 }
 
 .cm-s-default {
@@ -603,7 +603,7 @@ textarea {
 }
 
 #main-table {
-  background-image: none !important;
+  background-image: url(logo_o2.png) !important;
 }
 
 /********************   top panel styles      ***********************/
@@ -611,11 +611,20 @@ textarea {
   background-url: none;
   background-image: none;
   border-bottom: 1px solid #ccc;
+  background-color: #003462 !important;
 }
 
 .yui-skin-sam #top-panel img {
   display: none;
 }
+
+#top-panel td:first-child {
+  background-image: url(headshot.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+}
+
 
 .yui-skin-sam #search-box {
   font-size: 16px;
@@ -750,6 +759,7 @@ a.yuimenulabel, a.yuimenuitemlabel,
 #doony-title {
   color: #fff;
   margin: 5px 10px;
+  padding-left: 40px;
 }
 
 /* copied from twitter bootstrap */

@@ -8,10 +8,6 @@ your Jenkins user experience much better.
 Don't have admin access to your Jenkins instance? You can install it as
 a [Chrome extension](#chrome-extension)
 
-## Live Demo
-
-[See what Doony looks like](http://jenkins.doony.org) on a vanilla Jenkins install
-
 ## Who's Using It
 
 Doony was made at [Twilio]( https://www.twilio.com ). It's also been forked/starred by
@@ -88,10 +84,10 @@ the default Jenkins styles.
    the CSS and Javascript URL's for this theme. You should find a place to host
    these, on a static server inside your cluster.
 
-    You can use these URL's:
+    You can use these URLs:
 
-        - https://cdnjs.cloudflare.com/ajax/libs/doony/1.1/js/doony.min.js
-        - https://cdnjs.cloudflare.com/ajax/libs/doony/1.1/css/doony.min.css
+        - https://cdnjs.cloudflare.com/ajax/libs/doony/1.5/js/doony.min.js
+        - https://cdnjs.cloudflare.com/ajax/libs/doony/1.5/css/doony.min.css
 
     Alternatively you can let Jenkins self host these files by putting them in `~/.jenkins/userContent`
     With the default Jenkins settings the files you use will then be:
@@ -117,12 +113,6 @@ work with older versions but this is not guaranteed.
 
 - This is very much a work in progress, feel free to file bugs/issues and I'll
 make improvements as I can.
-
-- There's [a pull request against the Jenkins project][jenkins-pull] that
-should make skinning Jenkins much less brittle. Hopefully it will get merged
-into the mainline soon, then I can update this library.
-
-[jenkins-pull]: https://github.com/jenkinsci/jenkins/pull/960
 
 - This project is in no way intended to slam Jenkins developers. Jenkins is
 awesome, and unlike Travis you never get a blank screen. They are working

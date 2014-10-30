@@ -603,7 +603,9 @@ textarea {
 }
 
 #main-table {
-  background-image: url(logo_o2.png) !important;
+  background-image: url(logo.svg) !important;
+  background-size: 18%;
+  background-position: 2% 98% !important;
 }
 
 /********************   top panel styles      ***********************/

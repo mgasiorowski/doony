@@ -602,31 +602,35 @@ textarea {
   padding: 6px 12px;
 }
 
-#main-table {
+#page-body {
   background-image: url(logo.svg) !important;
   background-size: 18%;
   background-position: 2% 98% !important;
+  background-repeat: no-repeat;
 }
 
 /********************   top panel styles      ***********************/
-.yui-skin-sam #top-panel {
-  background-url: none;
-  background-image: none;
-  border-bottom: 1px solid #ccc;
+#header {
   background-color: #003462 !important;
-}
-
-.yui-skin-sam #top-panel img {
-  display: none;
-}
-
-#top-panel td:first-child {
   background-image: url(headshot.svg);
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 40px;
 }
 
+#header .logo {
+  margin-left: 45px;
+}
+
+.yui-skin-sam #top-panel {
+  background-url: none;
+  background-image: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.yui-skin-sam #top-panel img {
+  display: none;
+}
 
 .yui-skin-sam #search-box {
   font-size: 16px;
